@@ -1,0 +1,160 @@
+body {
+    color: #222;
+  }
+  
+  p, ul, h3, h4, span {
+    font-family: 'Josefin Sans';
+    line-height: 1.6;
+  }
+  
+  h1, h2, blockquote, .quote-container {
+    font-family: 'Abril Fatface';
+  }
+  
+  .header-container {
+    border-top: 5px solid #424641;
+    width: 1278px;
+    height: 400px;
+    margin: -10px auto 10px;
+    background: no-repeat center/1278px url(img/Anakin-header.png);
+    position: relative;
+  }
+  
+  header {
+    position: absolute;
+    left: 290px;
+    bottom: 35px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight:normal;
+  }
+  
+  h1 {
+    font-weight:normal;
+    font-size: 72px;
+    margin-top: -50px;
+    margin-bottom: 0;
+  }
+  
+  button {
+    width: 70px;
+    height: 140px;
+    position: fixed;
+    top: 50%;
+    margin-top: -70px;
+    opacity: .2;
+    background: grey;
+    cursor: pointer;
+    border: none;
+    color: grey;
+    font-size: 64px;
+    font-family: Open Sans;
+    transition: all 500ms ease;
+  }
+  
+  button:hover {
+    opacity: .5;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: black;
+    color: white;
+  }
+  
+  .nav-left {
+    left: 0;
+    border-top-right-radius: 140px;
+    border-bottom-right-radius: 140px;
+    margin-left: -40px;
+  }
+  
+  .nav-right {
+    right: 0;
+    border-top-left-radius: 140px;
+    border-bottom-left-radius: 140px;
+    margin-right: -40px;
+  }
+  
+  .container {
+    width: 725px;
+    margin: 50px auto;
+  }
+  
+  #intro {
+    width: 700px;
+    font-size: 18px;
+    margin: 60px auto;
+  }
+  
+  #intro ul {
+    font-size: 18px;
+  }
+  
+  #intro span::first-letter, #intro li::first-letter {
+    font-size: 20px;
+  }
+  
+  ul{
+    list-style-type: square;
+  }
+  
+  .quote-container {
+    background: #424641;
+    width: 800px;
+    height: 175px;
+    margin: auto;
+    color: white;
+    font-size: 48px;
+    position: relative;
+  }
+  
+  .quote-container::before {
+    content: '“';
+    font-size: 140px;
+    position: absolute;
+    top: -35px;
+  }
+   
+  blockquote {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .bigger {
+  padding-bottom: 60px;
+  }
+  
+  h3 {
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  h4{
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  
+  h5 {
+    font-family: 'Merriweather';
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  p {
+    letter-spacing: -0.8px;
+    font-size: 16px;
+  }
+  
+  ul {
+    letter-spacing: -0.7px;
+    font-size: 16px;
+  }
+  
+  hr {
+    border: 2px solid;
+    width: 730px;
+  }
+  
