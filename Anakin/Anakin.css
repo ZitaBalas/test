@@ -39,6 +39,7 @@ body {
   }
   
   button {
+    outline: none;
     width: 70px;
     height: 140px;
     position: fixed;
