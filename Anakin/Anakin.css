@@ -39,6 +39,7 @@ body {
   }
   
   button {
+    box-shadow: 2px 0 15px 8px black;
     outline: none;
     width: 70px;
     height: 140px;
@@ -56,6 +57,7 @@ body {
   }
   
   button:hover {
+    box-shadow: 2px 0 15px 8px white;  
     opacity: .5;
     margin-left: 0px;
     margin-right: 0px;
